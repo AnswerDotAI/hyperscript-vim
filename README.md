@@ -42,7 +42,7 @@ Restart Vim (or run `:helptags ALL`).
 
 ### File detection
 
-Files ending in `.hyperscript` or `.hyper` are recognized automatically.
+Files ending in `._hs`, `.hyperscript` or `.hyper` are recognized automatically.
 If you embed `_hyperscript` within `<script type="text/hyperscript">`
 tags in HTML, consider *vim‑html*’s heredoc rules or using Treesitter
 instead.
