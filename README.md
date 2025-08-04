@@ -9,7 +9,7 @@ detection for [_hyperscript](https://hyperscript.org).
 <summary>Using native <code>pack/*/start</code> (Vim 8 / Neovim)</summary>
 
 ```sh
-git clone https://github.com/yourname/hyperscript-vim \
+git clone https://github.com/AnswerDotAI/hyperscript-vim \
   ~/.config/nvim/pack/plugins/start/hyperscript-vim   # or ~/.vim/pack/…
 ````
 
@@ -23,19 +23,19 @@ Restart Vim (or run `:helptags ALL`).
 * **vim‑plug**
 
   ```vim
-  Plug 'yourname/hyperscript-vim'
+  Plug 'AnswerDotAI/hyperscript-vim'
   ```
 
 * **lazy.nvim**
 
   ```lua
-  { 'yourname/hyperscript-vim', ft = '_hyperscript' }
+  { 'AnswerDotAI/hyperscript-vim', ft = '_hyperscript' }
   ```
 
 * **packer**
 
   ```lua
-  use { 'yourname/hyperscript-vim', ft = '_hyperscript' }
+  use { 'AnswerDotAI/hyperscript-vim', ft = '_hyperscript' }
   ```
 
 </details>
